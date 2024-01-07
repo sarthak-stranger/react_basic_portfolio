@@ -1,0 +1,100 @@
+ 
+#logo{
+    height: 60%;
+    margin: 15px 0px 0px 30px;
+}
+.nav-bar{ 
+  display: flex; 
+  justify-content:space-between; 
+  /* background-color: #ffb7b7; */
+  /* border: 2px solid blue; */
+}
+.navigation{
+  display: flex;
+  list-style-type: none; 
+  margin-top: 20px;
+  /* border: 2px solid black; */
+}
+.nav-link{
+  /* border: 2px solid green; */
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 15px;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.nav-link:hover{
+  background-color: rgb(0, 164, 3);
+  border-radius: 10px;
+  color: white;
+}
+.main{
+  display: flex; 
+  /* border: 2px solid green;   */
+}
+.b-left{ 
+  width: 620px;
+}
+#backimg{
+  position: absolute;
+  top: 80px;
+  height: 105%;
+}
+#fimg{
+position: relative;
+height: 43%;
+left: 180px;
+top: -10px;
+transition: 0.8s ease-in-out 0s;
+}
+#fimg:hover{
+  transform: scale(1.1);
+}
+.b-right{
+  /* border: 2px solid red; */
+  height: 500px;
+  width: 500px;
+  display: flex; 
+  flex-direction: column;  
+  justify-content: center;
+  margin: 80px 0px 0px 280px; 
+
+}
+.b-right h1,h2,p{
+  margin-bottom: -0.7px;
+}
+#greet{
+  color:rgb(0, 164, 3);
+}
+#title{
+  color: rgb(92, 165, 255);
+}
+#dev{
+  color:rgb(221, 0, 214);
+}
+.links{
+  display: flex;
+  list-style: none;
+  padding: 20px 0px;
+}
+.all-links{
+  height: 80px;
+  margin: 20px 5px 10px 20px ; 
+  transition: 0.2s ease-in 0s; 
+}
+.all-links:hover{
+  transform: scale(1.17);
+}
+#linkd{
+  height:90px;
+  margin-top: 13px;
+}
+#twit{
+  height: 65px;
+  margin-top: 30px;
+}
+.name{
+  color: rgb(233, 177, 177);
+}
